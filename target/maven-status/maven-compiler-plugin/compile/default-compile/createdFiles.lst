@@ -1,0 +1,8 @@
+kth\system\healthcare\PatientRegistrationService\service\PatientManagementService.class
+kth\system\healthcare\PatientRegistrationService\controller\PatientManagementController.class
+kth\system\healthcare\PatientRegistrationService\repository\EventStoreRepository.class
+kth\system\healthcare\PatientRegistrationService\model\PatientRegisteredEvent.class
+kth\system\healthcare\PatientRegistrationService\PatientManagementApplication.class
+kth\system\healthcare\PatientRegistrationService\config\EventStoreDbConfig.class
+kth\system\healthcare\PatientRegistrationService\service\EventStoreService.class
+kth\system\healthcare\PatientRegistrationService\model\Patient.class
