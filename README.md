@@ -55,9 +55,8 @@ spring.kafka.producer.value-serializer=org.springframework.kafka.support.seriali
 
 ### Running Locally with Docker Compose
  Docker Compose for Kafka & EventDB
-  You can find the Docker Compose configuration for Kafka and EventDB in the [LabResultService](https://github.com/sabahAlsaleh/LabResultService) repository.
-
-For running locally with Docker Compose, adjust the following configurations:
+  You can find the Docker Compose configuration for Kafka and EventDB in the [LabResultService](https://github.com/sabahAlsaleh/LabResultService)  repository.
+ For running locally with Docker Compose, adjust the following configurations:
 
 ```properties
 server.port:8082
@@ -106,26 +105,23 @@ Once PatientManagement Service is up and running, you can interact with it using
   http://patientmanagement.app.cloud.cbh.kth.se/patients/events
   ```
   
- - **Run a patient locally:**
-
-  - **Create a New Patient Locally:**
- 
-  To add a new patient, use the following `POST` request with the appropriate payload:
-  ```
-  http://localhost:8082/patients/register
-  ```
+ - **Create a New Patient Locally:**
+   To add a new patient, use the following `POST` request with the appropriate payload:
    ```
-  Content-Type: application/json
+    http://localhost:8082/patients/register
+   ```
+   ```
+   Content-Type: application/json
 
-  {
+   {
     "id": "12345",
     "name": "John Doe",
     "dateOfBirth": "1990-01-01",
     "email": "johndoe@example.com",
     "phoneNumber": "123-456-7890"
-  }
+   }
 
-  ```
+   ```
  - **Retrieve a Lab Result locally:**
   To get all lab results, use the following `GET` request:
    ```
