@@ -5,9 +5,9 @@
 PatientManagement Service is an event-based application designed to manage patient-related data and events. It provides functionalities to register new patients and retrieve patient-related events. The service is built with Spring Boot and utilizes an event-driven architecture to handle patient registration events.
 
 ## Features
-1.Patient Registration: Register new patients with their personal information.
-2. Event-Driven Architecture: Utilize event-driven approach for handling patient registration events.
-3.RESTful API: Provide RESTful endpoints for seamless integration.
+- Patient Registration: Register new patients with their personal information.
+- Event-Driven Architecture: Utilize event-driven approach for handling patient registration events.
+- RESTful API: Provide RESTful endpoints for seamless integration.
 
 
 ## Technologies Used
